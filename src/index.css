@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  height: 100vh;
+  background-image: linear-gradient(#902329, #7F4923, #D79D0E);
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header h1 {
+  padding: 1em;
+  color: #ffffff;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+.quad_inicial label input {
+  text-align: center;
+  font-size: 2.5em;
+  
+}
+
+label{
+  color: #ffffff;
+  margin: 0 2em;
+}
+
+.quad_inicial{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.campo_input{
+  margin: 1em 2em;
+  height: 2em;
+}
+
+.botao{
+  width: 20%;
+  margin: 0 auto;
 }
